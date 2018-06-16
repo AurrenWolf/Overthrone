@@ -1,0 +1,5 @@
+draw_self()
+width = string_width_ext(text,30,sprite_width)
+draw_set_font(fnt_game_large)
+draw_text_ext_color((x+(sprite_width/2))-(width),y+sprite_height/2,text,30,sprite_width,c_white,c_white,c_white,c_white,0.8)
+draw_set_font(fnt_game)

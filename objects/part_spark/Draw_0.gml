@@ -1,0 +1,1 @@
+draw_rectangle_color(x-width/2,y-width/2,x+width/2,y+width/2,c_orange,c_orange,c_orange,c_orange,false)

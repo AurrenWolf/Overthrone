@@ -1,0 +1,1 @@
+if (buildMode_menu.buildmode = false){aiming = true}

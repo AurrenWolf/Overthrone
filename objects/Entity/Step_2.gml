@@ -1,0 +1,1 @@
+if (entity_number!=-1){scr_check_for_hits("entity")}

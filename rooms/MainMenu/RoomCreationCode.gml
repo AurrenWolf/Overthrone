@@ -1,0 +1,1 @@
+cursor_sprite = s_cursor_specificSelect_large

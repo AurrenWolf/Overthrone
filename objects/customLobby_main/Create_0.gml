@@ -1,0 +1,1 @@
+System.mp_lobby_type = "custom"

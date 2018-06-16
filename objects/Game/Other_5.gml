@@ -1,0 +1,2 @@
+ds_grid_destroy(entity_grid)
+mp_grid_destroy(colGrid)

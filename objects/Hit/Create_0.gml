@@ -1,0 +1,2 @@
+owner = Player
+team = "none"
