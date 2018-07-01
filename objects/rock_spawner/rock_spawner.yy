@@ -5,13 +5,13 @@
     "name": "rock_spawner",
     "eventList": [
         {
-            "id": "738af944-bed0-43c5-9fbd-ce3edc7b0871",
+            "id": "a97e9e23-d55a-4ee4-aa8c-f26b9c1c96f7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 3,
             "m_owner": "906022f5-b156-44f9-b452-cf041f9c5f7f"
         }
     ],

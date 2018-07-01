@@ -1,5 +1,13 @@
 team = noone
 
+playersConnected = 0
+initGen = false
+
+if (mp_type = "server")
+	{
+	playersConnected++
+	}
+
 instance_create_layer(0,0,"UI",Camera)
 instance_create_layer(0,0,"UI",buildMode_menu)
 instance_create_layer(0,0,"UI",Inventory_main)

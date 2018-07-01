@@ -326,5 +326,10 @@ switch(index)
 			}
 		break
 		}
+	case 16://client telling host they are in game
+		{
+		
+		break
+		}
 	}
 buffer_delete(buffer)
