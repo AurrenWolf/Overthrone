@@ -23,7 +23,10 @@ event_inherited()
 
 if (System.mp_type = "server")
 	{
-	spawnTick-=1*dt
+	if (Game.initGen)
+		{
+		spawnTick-=1*dt
+		}
 	if (spawnTick<=0)
 		{
 		spawnTick = spawnTickTime
