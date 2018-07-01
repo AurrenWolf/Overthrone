@@ -3,7 +3,14 @@ team = noone
 playersConnected = 0
 initGen = false
 
-if (mp_type = "server")
+if (System.mp_type = "client")
+	{
+	var buffer = buffer_create(8, buffer_grow,1)
+	buffer_write(buffer, buffer_u8,16)//tell host client is in game
+	network_send_packet(System.mp_socket, buffer, buffer_tell(buffer))
+	}
+
+if (System.mp_type = "server")
 	{
 	playersConnected++
 	}

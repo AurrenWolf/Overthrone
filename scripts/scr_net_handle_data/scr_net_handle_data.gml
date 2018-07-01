@@ -328,7 +328,10 @@ switch(index)
 		}
 	case 16://client telling host they are in game
 		{
-		
+		if (instance_exists(Game))
+			{
+			Game.playersConnected++
+			}
 		break
 		}
 	}
